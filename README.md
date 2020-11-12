@@ -1,30 +1,24 @@
-## ThermoHygrometers
+## ThermoHygrometer
+### Thermo Hygrometer is part of the Apartment monitoring application
 
-The script that takes the humidity and temperature and then sends the data to the main application(ApartmentMonitoring)
+# Goals
+- The goal of this application is to report the ambient temperature and humidity to a remote/IOT server.
 
-## Run
+- This application simply demonstrates basic WiFi and HTTP usage of the ESP8266 as well as a simple I2C sensor.
 
-```shell
-$ python3 main.py
-```
+# Hardware
+- [ESP8266 NodeMcu V3 Dev Board](https://nodemcu.readthedocs.io/en/release/)
+- [Adafruit Sensor SHT31-D - Temperature & Humidity](https://www.adafruit.com/product/2857)
 
-## Installation
+# Installation
 
-Install dependencies
+- Git clone
+- Install PlatformIO
+- Build project
+- Upload project to ESP8266
+![Image of ESP8266 NodeMcu v3 and sensor](image_esp_sensor.jpg)
 
-Python3
-```shell
-sudo apt-get update
-sudo apt-get install python3-pip
-sudo python3 -m pip install --upgrade pip setuptools wheel
-sudo pip3 install Adafruit_DHT
-```
+# Support
 
-For full instructions, see
-```shell
-https://github.com/adafruit/Adafruit_Python_DHT
-```
-
-## Support
-
+- Website at <a href="https://monitoring.railwaytycoon.dev/" target="_blank">`monitoring.railwaytycoon.dev`</a>
 - Issue in GitHub.

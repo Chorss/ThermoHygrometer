@@ -1,0 +1,6 @@
+#define WIFI_SSID "<SSID>"
+#define WIFI_PASS "<PASSWORD>"
+#define URL_ADDRESS "<URL>"
+#define URL_HTTPS_FINGERPRINT "<HASH>"
+#define DEVICE_ID "<DEVICE_ID>"
+#define DELAY 1000
